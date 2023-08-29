@@ -65,7 +65,7 @@ router.delete('/:id', async(req, res) => {
       }
     });
 
-    if (!tagDataData) {
+    if (!tagData) {
       res.status(404).json({ message: 'No tag found with this id!' });
       return;
     }
