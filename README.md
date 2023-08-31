@@ -24,7 +24,7 @@ Run this command into your terminal
 ```
 mysql -u root -p
 ```
-Enter in your MySQL password 
+Enter your MySQL password 
 ```
 source db/schema.sql
 ```
